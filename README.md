@@ -1,4 +1,4 @@
-## Introduction,
+## Introduction
 
 ![cover](./img/social_image.png)
 
