@@ -48,9 +48,33 @@ The app will send an email to the admin every time someone subscribes to the new
 
 > Npm comes with Node.js and you can download your OS's version on the [official site](https://nodejs.org/en/download/)
 
-## File requirement
+## Files & Folders
+### Files
 
-You must add a local environment variables file named `.env.local` in the root folder, with the following content:
+After unzipping the downloaded `trendly-blog-nextjs-13.zip` file, you will have 2 folders:
+
+- personal-blog-nextjs-main.zip: _The source code of the project_
+- personal-blog-trendly-docs-main.zip: _Project documentation, but I recommend the [online version](https://personal-blog-trendly-docs.vercel.app/#/) as it will be the most recent version._
+
+### Project folders
+
+When you unzip the project's source code, you have those folders:
+
+![project-folders](./img/project-folders.jpg)
+
+- components: _The place where all created components are saved._
+- hooks: _The place to save all custom hooks._
+- interfaces: _All type definitions and data interfaces are stored in this folder._
+- lib: _The place to store external library code like database connection, mail gateway, helpers._
+- middlewares: _The place to store all middlewares used in certain api endpoints._
+- models: _All the models we use to interact with the mongodb database are stored in this folder._
+- pages: _This folder is part of the Next.js conventions and is where all API endpoints and application pages are saved._
+- public: _This is the folder where all public items (images, videos, etc.) are saved._
+- styles: _This is the folder where we save all application style files. As we are using Tailwind CSS for the design, there are not many files._
+
+## Environment variables's file (required)
+
+You must add a local environment variables file named `.env.local` in the project's root folder, with the following content:
 
 ```txt
 NEXT_PUBLIC_APP_NAME=Trendly
@@ -102,16 +126,15 @@ Once all the environment variables are available, you can get started as in the 
 
 ## Getting Started
 
-- You have access to the repository: clone it
-- You have the project zip: unzip it in a folder in your computer
+Move the the project folder with the command line or with [VS Code](https://code.visualstudio.com/download) terminal.
 
-First install dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
