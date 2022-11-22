@@ -54,7 +54,7 @@ The app will send an email to the admin every time someone subscribes to the new
 After unzipping the downloaded `trendly-blog-nextjs-13.zip` file, you will have 2 folders:
 
 - personal-blog-nextjs-main.zip: _The source code of the project_
-- personal-blog-trendly-docs-main.zip: _Project documentation, but I recommend the [online version](https://personal-blog-trendly-docs.vercel.app/#/) as it will be the most recent version._
+- personal-blog-trendly-docs-master.zip: _Project documentation, but I recommend the [online version](https://personal-blog-trendly-docs.vercel.app/#/) as it will be the most recent version._
 
 ### Project folders
 
